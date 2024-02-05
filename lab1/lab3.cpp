@@ -67,12 +67,12 @@ public:
 
 int main() {
     // Create courses
-    Course c1("CS101", "Introduction to Computer Science");
-    Course c2("MA101", "Calculus I");
+    Course c1("msa001", "mathematics for science");
+    Course c2("css002", "Calculus I");
 
     // Create students
-    Student s1("sct212-001/24", "John kamonge", 19, c1);
-    Student s2("sct212-002/24", "Jane okwaro", 20, c2);
+    Student s1("sct212-001/24", "mark Njoroge", 19, c1);
+    Student s2("sct212-002/24", "victor maweu", 20, c2);
 
     // Add marks and calculate grades
     s1.addGrade(Grade(85));
